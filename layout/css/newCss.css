@@ -1,0 +1,227 @@
+body {
+    background-color: #1e272e;
+    color: aliceblue;
+}
+
+/* navbar edits  */
+
+.navbar-custom {
+    background-color: #32778b;
+}
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+
+/* cards edits */
+.card {
+    position: relative;
+    top: 150px;
+    left: 25%;
+    bottom: 300px;
+}
+
+.dropdown {
+    position: relative;
+    left: 1400px;
+
+
+}
+
+.container {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+
+}
+
+.updated {
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+}
+
+
+.show-pass {
+    position: absolute;
+    left: 700px;
+    bottom: 233px;
+}
+
+.Table_container {
+    position: relative;
+    top: 150px;
+    left: 0px;
+
+}
+
+.Activate {
+    margin-left: 5px;
+}
+
+/*
+Dashboard edit
+*/
+
+.home-stat .stat a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.home-stat .stat a:hover {
+    color: rgb(236, 230, 230);
+    text-decoration: none;
+
+}
+
+
+.home-stat .total-members {
+    background-color: #2ecc71;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.home-stat .pending-members {
+    background-color: #3498db;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.home-stat .total-items {
+    background-color: #8e44ad;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.home-stat .total-comments {
+    background-color: #e67e22;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.home-stat .stat span {
+    display: block;
+    font-size: 50px;
+}
+
+.latest_users {
+    width: 650px;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+
+}
+
+.latest_items {
+    width: 650px;
+    position: absolute;
+    bottom: 0px;
+    left: 680px;
+
+}
+
+
+/*
+category page edit
+*/
+
+.category_container {
+    width: 1200px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+
+
+}
+
+
+.category_container .form {
+    position: relative;
+    left: 300px;
+
+
+
+}
+
+.category_container .form div {
+    margin: 5px;
+}
+
+.category_container .form label {
+    font-size: 20px;
+}
+
+.category_card {
+    position: relative;
+    top: 100px;
+
+}
+
+.category_card .cat {
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.category_card .cat:hover {
+    background-color: #EEE;
+    height: 220px;
+}
+
+.category_card .cat:hover .hidden-buttons {
+    right: 10px;
+}
+
+
+.category_card .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -180px;
+}
+
+.category_card .cat .hidden-buttons a {
+    margin-right: 5px;
+}
+
+.Add_category {
+    position: absolute;
+    left: 470px;
+    top: 783px;
+
+}
+
+
+
+/*
+Item edit
+*/
